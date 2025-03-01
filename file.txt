@@ -1,2 +1,9 @@
 hello there
 Mashood Memon
+
+git reset --soft 07f2567
+This moves HEAD to the previous commit but keeps your changes in the staging area.
+
+
+git reset --hard <commit-hash>
+This moves back and deletes commit permanently.
